@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+video {
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+input, button {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#studentsList {
+    list-style: none;
+    padding: 0;
+}
+#studentsList li {
+    background: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.red-border {
+    border: 3px solid red !important;
+}
+.blue-border {
+    border: 3px solid blue !important;
+}
+.green-border {
+    border: 3px solid green !important;
+}
